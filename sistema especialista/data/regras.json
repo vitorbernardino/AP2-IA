@@ -1,0 +1,565 @@
+[
+    {
+        "var": "regra1",
+        "values": [
+            "intel",
+            "lga1151",
+            "baixo"
+        ],
+        "retorno": "Intel Core i3-9100"
+    },
+    {
+        "var": "regra2",
+        "values": [
+            "intel",
+            "lga1150",
+            "baixo"
+        ],
+        "retorno": "intel core i3-4370"
+    },
+    {
+        "var": "regra3",
+        "values": [
+            "intel",
+            "lga1200",
+            "baixo"
+        ],
+        "retorno": "intel core i3-10105"
+    },
+    {
+        "var": "regra4",
+        "values": [
+            "intel",
+            "lga1150",
+            "medio"
+        ],
+        "retorno": "intel core i5-4460"
+    },
+    {
+        "var": "regra5",
+        "values": [
+            "intel",
+            "lga1151",
+            "medio"
+        ],
+        "retorno": "intel core i5-9400T"
+    },
+    {
+        "var": "regra6",
+        "values": [
+            "intel",
+            "lga1200",
+            "medio"
+        ],
+        "retorno": "intel core i5-10505"
+    },
+    {
+        "var": "regra7",
+        "values": [
+            "intel",
+            "lga1150",
+            "alto"
+        ],
+        "retorno": "intel core i7-5775c"
+    },
+    {
+        "var": "regra8",
+        "values": [
+            "intel",
+            "lga1151",
+            "alto"
+        ],
+        "retorno": "intel core i9-9900ks"
+    },
+    {
+        "var": "regra9",
+        "values": [
+            "intel",
+            "lga1200",
+            "alto"
+        ],
+        "retorno": "intel core i9-11900t"
+    },
+    {
+        "var": "regra10",
+        "values": [
+            "amd",
+            "fm2",
+            "baixo"
+        ],
+        "retorno": "A4-4000"
+    },
+    {
+        "var": "regra11",
+        "values": [
+            "amd",
+            "am3",
+            "baixo"
+        ],
+        "retorno": "AMD FX-4350"
+    },
+    {
+        "var": "regra12",
+        "values": [
+            "amd",
+            "am4",
+            "baixo"
+        ],
+        "retorno": "AMD Ryzen 3 1200"
+    },
+    {
+        "var": "regra13",
+        "values": [
+            "amd",
+            "fm2",
+            "medio"
+        ],
+        "retorno": "A6-6420K"
+    },
+    {
+        "var": "regra14",
+        "values": [
+            "amd",
+            "am3",
+            "medio"
+        ],
+        "retorno": "AMD FX-8100"
+    },
+    {
+        "var": "regra15",
+        "values": [
+            "amd",
+            "am4",
+            "medio"
+        ],
+        "retorno": "AMD Ryzen 7 5800"
+    },
+    {
+        "var": "regra16",
+        "values": [
+            "amd",
+            "fm2",
+            "alto"
+        ],
+        "retorno": "A10-6800K"
+    },
+    {
+        "var": "regra17",
+        "values": [
+            "amd",
+            "am3",
+            "alto"
+        ],
+        "retorno": "AMD FX-9590"
+    },
+    {
+        "var": "regra18",
+        "values": [
+            "amd",
+            "am4",
+            "alto"
+        ],
+        "retorno": "Ryzen 9 3900"
+    },
+    {
+        "var": "regra19",
+        "values": [
+            "ddr3",
+            "-2000mhz",
+            "-32",
+            "2slots"
+        ],
+        "retorno": "Memoria Pc Kingston,DDR3, 8GB,1600mhz x2"
+    },
+    {
+        "var": "regra20",
+        "values": [
+            "ddr3",
+            "-2000mhz",
+            "-32",
+            "4slots"
+        ],
+        "retorno": "Memória Kingston, 4GB, 1600MHz x4"
+    },
+    {
+        "var": "regra21",
+        "values": [
+            "ddr3",
+            "-2000mhz",
+            "+32",
+            "2slots"
+        ],
+        "retorno": "Memoria Pc Kingston,DDR3, 16GB,1600mhz x2"
+    },
+    {
+        "var": "regra22",
+        "values": [
+            "ddr3",
+            "-2000mhz",
+            "+32",
+            "4slots"
+        ],
+        "retorno": "Memoria Pc Kingston,DDR3, 8GB,1600mhz x4"
+    },
+    {
+        "var": "regra23",
+        "values": [
+            "ddr3",
+            "+2000mhz",
+            "-32",
+            "2slots"
+        ],
+        "retorno": "CORSAIR Vengeance LPX DDR3 8GB 2400MHz x2"
+    },
+    {
+        "var": "regra24",
+        "values": [
+            "ddr3",
+            "+2000mhz",
+            "-32",
+            "4slots"
+        ],
+        "retorno": "HyperX DDR3 4GB 1866mhz x4"
+    },
+    {
+        "var": "regra25",
+        "values": [
+            "ddr3",
+            "+2000mhz",
+            "+32",
+            "2slots"
+        ],
+        "retorno": "CORSAIR Vengeance LPX DDR3 16GB 2400MHz x2"
+    },
+    {
+        "var": "regra26",
+        "values": [
+            "ddr3",
+            "+2000mhz",
+            "+32",
+            "4slots"
+        ],
+        "retorno": "CORSAIR Vengeance LPX DDR3 8GB 2400MHz x4"
+    },
+    {
+        "var": "regra27",
+        "values": [
+            "ddr4",
+            "-2000mhz",
+            "-32",
+            "2slots"
+        ],
+        "retorno": "Não existem memorias ddr4 com menos de 2000mhz"
+    },
+    {
+        "var": "regra28",
+        "values": [
+            "ddr4",
+            "-2000mhz",
+            "-32",
+            "4slots"
+        ],
+        "retorno": "Não existem memorias ddr4 com menos de 2000mhz"
+    },
+    {
+        "var": "regra29",
+        "values": [
+            "ddr4",
+            "-2000mhz",
+            "+32",
+            "2slots"
+        ],
+        "retorno": "Não existem memorias ddr4 com menos de 2000mhz"
+    },
+    {
+        "var": "regra30",
+        "values": [
+            "ddr4",
+            "-2000mhz",
+            "+32",
+            "4slots"
+        ],
+        "retorno": "Não existem memorias ddr4 com menos de 2000mhz"
+    },
+    {
+        "var": "regra31",
+        "values": [
+            "ddr4",
+            "+2000mhz",
+            "-32",
+            "2slots"
+        ],
+        "retorno": "DDR4 16GB 3200mhz & DDR4 8GB 3200mhz"
+    },
+    {
+        "var": "regra32",
+        "values": [
+            "ddr4",
+            "+2000mhz",
+            "-32",
+            "4slots"
+        ],
+        "retorno": "DDR4 8GB 3200mhz x4"
+    },
+    {
+        "var": "regra33",
+        "values": [
+            "ddr4",
+            "+2000mhz",
+            "+32",
+            "2slots"
+        ],
+        "retorno": "DDR4 32GB 3200mhz x2"
+    },
+    {
+        "var": "regra33",
+        "values": [
+            "ddr4",
+            "+2000mhz",
+            "+32",
+            "4slots"
+        ],
+        "retorno": "DDR4 16GB 3200mhz x4"
+    },
+    {
+        "var": "regra35",
+        "values": [
+            "hdd",
+            "sim",
+            "pouco"
+        ],
+        "retorno": "Nvme m2 240gb"
+    },
+    {
+        "var": "regra36",
+        "values": [
+            "hdd",
+            "sim",
+            "muito"
+        ],
+        "retorno": "NVME m2 460gb + HD atual secundario"
+    },
+    {
+        "var": "regra37",
+        "values": [
+            "hdd",
+            "nao",
+            "pouco"
+        ],
+        "retorno": "SSD sata 240gb"
+    },
+    {
+        "var": "regra38",
+        "values": [
+            "hdd",
+            "nao",
+            "muito"
+        ],
+        "retorno": "SSD sata 960Gb + HD atual secundario"
+    },
+    {
+        "var": "regra39",
+        "values": [
+            "ssd",
+            "sim",
+            "pouco"
+        ],
+        "retorno": "NVME 240gb + SSD atual secundario"
+    },
+    {
+        "var": "regra40",
+        "values": [
+            "ssd",
+            "sim",
+            "muito"
+        ],
+        "retorno": "NVME m2 460GB + HD 1tb ou apenas HD 1tb"
+    },
+    {
+        "var": "regra41",
+        "values": [
+            "ssd",
+            "nao",
+            "pouco"
+        ],
+        "retorno": "HD 300GB secundario ou Nada a fazer"
+    },
+    {
+        "var": "regra42",
+        "values": [
+            "ssd",
+            "nao",
+            "muito"
+        ],
+        "retorno": "HD 1tb para armazenamento e ssd atual apenas sistema"
+    },
+    {
+        "var": "regra43",
+        "values": [
+            "amd",
+            "jogos",
+            "baixo",
+            "menos500w"
+        ],
+        "retorno": "AMD Radeon RX 550"
+    },
+    {
+        "var": "regra45",
+        "values": [
+            "amd",
+            "jogos",
+            "alto",
+            "menos500w"
+        ],
+        "retorno": "AMD Radeon RX 580"
+    },
+    {
+        "var": "regra46",
+        "values": [
+            "amd",
+            "trabalho",
+            "alto",
+            "menos500w"
+        ],
+        "retorno": "AMD Radeon RX 6600XT"
+    },
+    {
+        "var": "regra47",
+        "values": [
+            "amd",
+            "jogos",
+            "baixo",
+            "mais500w"
+        ],
+        "retorno": "AMD Radeon RX 570"
+    },
+    {
+        "var": "regra48",
+        "values": [
+            "amd",
+            "trabalho",
+            "baixo",
+            "mais500w"
+        ],
+        "retorno": "AMD Radeon RX 5500XT"
+    },
+    {
+        "var": "regra49",
+        "values": [
+            "amd",
+            "jogos",
+            "alto",
+            "mais500w"
+        ],
+        "retorno": "AMD Radeon RX 6700XT"
+    },
+    {
+        "var": "regra50",
+        "values": [
+            "amd",
+            "trabalho",
+            "alto",
+            "mais500w"
+        ],
+        "retorno": "AMD Radeon RX 6900XT"
+    },
+    {
+        "var": "regra51",
+        "values": [
+            "nvidia",
+            "jogos",
+            "baixo",
+            "menos500w"
+        ],
+        "retorno": "NVIDIA Geforce GTX 1050"
+    },
+    {
+        "var": "regra52",
+        "values": [
+            "nvidia",
+            "trabalho",
+            "baixo",
+            "menos500w"
+        ],
+        "retorno": "NVIDIA Geforce GTX 1030"
+    },
+    {
+        "var": "regra53",
+        "values": [
+            "nvidia",
+            "jogos",
+            "alto",
+            "menos500w"
+        ],
+        "retorno": "NVIDIA Geforce GTX 1660"
+    },
+    {
+        "var": "regra54",
+        "values": [
+            "nvidia",
+            "trabalho",
+            "alto",
+            "menos500w"
+        ],
+        "retorno": "NVIDIA Geforce GTX 1660 SUPER"
+    },
+    {
+        "var": "regra55",
+        "values": [
+            "nvidia",
+            "jogos",
+            "baixo",
+            "mais500w"
+        ],
+        "retorno": "NVIDIA Geforce GTX 1050"
+    },
+    {
+        "var": "regra56",
+        "values": [
+            "nvidia",
+            "trabalho",
+            "baixo",
+            "mais500w"
+        ],
+        "retorno": "NVIDIA Geforce GTX 1050 TI"
+    },
+    {
+        "var": "regra57",
+        "values": [
+            "nvidia",
+            "jogos",
+            "alto",
+            "mais500w"
+        ],
+        "retorno": "NVIDIA Geforce GTX 3060"
+    },
+    {
+        "var": "regra58",
+        "values": [
+            "nvidia",
+            "trabalho",
+            "alto",
+            "mais500w"
+        ],
+        "retorno": "NVIDIA Geforce GTX 3090"
+    },
+    {
+        "var": "regra59",
+        "values": [
+            "amd",
+            "trabalho",
+            "baixo",
+            "menos500w"
+        ],
+        "retorno": "AMD Radeon RX 560"
+    },
+    {
+        "var": "error1",
+        "values": [
+            "amd",
+            "lga1150",
+            "baixo"
+        ],
+        "retorno": "input invalido"
+    }
+]

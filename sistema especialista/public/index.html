@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upgrader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upgrader</h1>
+    <nav>
+        <a href="/vars">Cadastrar Variáveis</a>
+        <a href="/regras">Cadastrar Regras</a>
+    </nav>
+    <div class="question">
+        <p>Qual o principal gargalo/defeito no seu computador?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q1" value="cpu"> CPU
+            </label>
+            <label>
+                <input type="radio" name="q1" value="gpu"> GPU
+            </label>
+            <label>
+                <input type="radio" name="q1" value="memoria"> Memoria
+            </label>
+            <label>
+                <input type="radio" name="q1" value="armazenamento"> Armazenamento
+            </label>
+        </div>
+    </div>
+
+    <button id="submitIndex">Enviar Respostas</button>
+
+    <script>
+        document.getElementById('submitIndex').addEventListener('click', function () {
+            var resposta = document.querySelector('input[name="q1"]:checked').value
+
+            if(resposta == "cpu"){
+                window.location.href = "/cpu";
+            }
+            if(resposta == "gpu"){
+                window.location.href = "/gpu";
+            }
+            if(resposta == "memoria"){
+                window.location.href = "/memoria";
+            }
+            if(resposta == "armazenamento"){
+                window.location.href = "/armazenamento";
+            }
+        });
+    </script>
+</body>
+</html>

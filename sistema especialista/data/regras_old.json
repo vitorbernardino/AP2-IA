@@ -1,0 +1,631 @@
+[
+    {
+        "id":1,
+        "nomeRegra":"regra1",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"lga1151"},
+            {"var":"performance_gpu","op":"==","value":"baixa","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"intel","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"intel core i3-9100"}
+    },
+    {
+        "id":2,
+        "nomeRegra":"regra2",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"lga1150"},
+            {"var":"performance_gpu","op":"==","value":"baixa","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"intel","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"intel core i3-4370"}
+    },
+
+    {
+        "id":3,
+        "nomeRegra":"regra3",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"lga1200"},
+            {"var":"performance_gpu","op":"==","value":"baixa","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"intel","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"intel core i3-10105"}
+    },
+
+    {
+        "id":4,
+        "nomeRegra":"regra4",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"lga1150"},
+            {"var":"performance_gpu","op":"==","value":"media","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"intel","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"intel core i5-4460"}
+    },
+
+    {
+        "id":5,
+        "nomeRegra":"regra5",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"lga1151"},
+            {"var":"performance_gpu","op":"==","value":"media","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"intel","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"intel core i5-9400T"}
+    },
+
+    {
+        "id":6,
+        "nomeRegra":"regra6",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"lga1200"},
+            {"var":"performance_gpu","op":"==","value":"media","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"intel","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"intel core i5-10505"}
+    },
+
+    {
+        "id":7,
+        "nomeRegra":"regra7",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"lga1150"},
+            {"var":"performance_gpu","op":"==","value":"alta","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"intel","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"intel core i7-5775c"}
+    },
+    {
+        "id":8,
+        "nomeRegra":"regra8",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"lga1151"},
+            {"var":"performance_gpu","op":"==","value":"alta","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"intel","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"intel core i9-9900ks"}
+    },
+    {
+        "id":9,
+        "nomeRegra":"regra9",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"lga1200"},
+            {"var":"performance_gpu","op":"==","value":"alta","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"intel","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"intel core i9-11900t"}
+    },
+    {
+        "id":10,
+        "nomeRegra":"regra10",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"fm2"},
+            {"var":"performance_gpu","op":"==","value":"baixa","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"amd","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"A4-4000"}
+    },
+    {
+        "id":11,
+        "nomeRegra":"regra11",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"am3+"},
+            {"var":"performance_gpu","op":"==","value":"baixa","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"amd","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"AMD FX-4350"}
+    },
+    {
+        "id":12,
+        "nomeRegra":"regra12",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"am4"},
+            {"var":"performance_gpu","op":"==","value":"baixa","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"amd","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"AMD Ryzen 3 1200"}
+    },
+    {
+        "id":13,
+        "nomeRegra":"regra13",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"fm2"},
+            {"var":"performance_gpu","op":"==","value":"media","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"amd","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"A6-6420K"}
+    },
+    {
+        "id":14,
+        "nomeRegra":"regra14",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"am3+"},
+            {"var":"performance_gpu","op":"==","value":"media","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"amd","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"AMD FX-8100"}
+    },
+    {
+        "id":15,
+        "nomeRegra":"regra15",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"am4"},
+            {"var":"performance_gpu","op":"==","value":"media","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"amd","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"AMD Ryzen 7 5800"}
+    },
+    {
+        "id":16,
+        "nomeRegra":"regra16",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"fm2"},
+            {"var":"performance_gpu","op":"==","value":"alta","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"amd","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"A10-6800K"}
+    },
+    {
+        "id":17,
+        "nomeRegra":"regra17",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"am3+"},
+            {"var":"performance_gpu","op":"==","value":"alta","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"amd","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"AMD FX-9590"}
+    },
+    {
+        "id":18,
+        "nomeRegra":"regra18",
+        "condicoes":[
+            {"var":"socket","op":"==","value":"am4"},
+            {"var":"performance_gpu","op":"==","value":"alta","statementOperator":"||"},
+            {"var":"modelo_cpu","op":"==","value":"amd","statementOperator":"||"}
+        ],
+        "entao":{"var":"cpu","value":"Ryzen 9 3900"}
+    },
+
+
+    {
+        "id":19,
+        "nomeRegra":"regra19",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr3"},
+            {"var":"mhz_ram","op":"==","value":"menos2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"menos32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"2slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"Memoria Pc Kingston,DDR3, 8GB,1600mhz x2"}
+    },
+    {
+        "id":20,
+        "nomeRegra":"regra20",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr3"},
+            {"var":"mhz_ram","op":"==","value":"menos2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"menos32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"4slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"Memória Kingston, 4GB, 1600MHz x4"}
+    },
+    {
+        "id":21,
+        "nomeRegra":"regra21",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr3"},
+            {"var":"mhz_ram","op":"==","value":"menos2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"mais32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"2slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"Memoria Pc Kingston,DDR3, 8GB,1600mhz x2"}
+    },
+    {
+        "id":22,
+        "nomeRegra":"regra22",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr3"},
+            {"var":"mhz_ram","op":"==","value":"menos2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"mais32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"4slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"Memoria Pc Kingston,DDR3, 8GB,1600mhz x4"}
+    },
+    {
+        "id":23,
+        "nomeRegra":"regra23",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr3"},
+            {"var":"mhz_ram","op":"==","value":"mais2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"menos32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"2slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"CORSAIR Vengeance LPX DDR3 8GB 2400MHz x2"}
+    },
+    {
+        "id":24,
+        "nomeRegra":"regra24",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr3"},
+            {"var":"mhz_ram","op":"==","value":"mais2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"menos32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"4slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"HyperX DDR3 4GB 1866mhz x4"}
+    },
+    {
+        "id":25,
+        "nomeRegra":"regra25",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr3"},
+            {"var":"mhz_ram","op":"==","value":"mais2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"mais32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"2slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"CORSAIR Vengeance LPX DDR3 8GB 2400MHz x2"}
+    },
+    {
+        "id":26,
+        "nomeRegra":"regra26",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr3"},
+            {"var":"mhz_ram","op":"==","value":"mais2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"mais32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"4slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"CORSAIR Vengeance LPX DDR3 8GB 2400MHz x4"}
+    },
+    {
+        "id":27,
+        "nomeRegra":"regra27",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr4"},
+            {"var":"mhz_ram","op":"==","value":"menos2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"menos32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"2slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"Não existem memorias ddr4 com menos de 2000mhz"}
+    },
+    {
+        "id":28,
+        "nomeRegra":"regra28",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr4"},
+            {"var":"mhz_ram","op":"==","value":"menos2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"menos32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"4slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"Não existem memorias ddr4 com menos de 2000mhz"}
+    },
+    {
+        "id":29,
+        "nomeRegra":"regra29",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr4"},
+            {"var":"mhz_ram","op":"==","value":"menos2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"mais32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"2slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"Não existem memorias ddr4 com menos de 2000mhz"}
+    },
+    {
+        "id":30,
+        "nomeRegra":"regra30",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr4"},
+            {"var":"mhz_ram","op":"==","value":"menos2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"mais32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"4slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"Não existem memorias ddr4 com menos de 2000mhz"}
+    },
+    {
+        "id":31,
+        "nomeRegra":"regra31",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr4"},
+            {"var":"mhz_ram","op":"==","value":"mais2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"menos32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"2slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":"DDR4 16GB 3200mhz & DDR4 8GB 3200mhz"}
+    },
+    {
+        "id":32,
+        "nomeRegra":"regra32",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr4"},
+            {"var":"mhz_ram","op":"==","value":"mais2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"menos32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"4slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":" DDR4 8GB 3200mhz x4"}
+    },
+    {
+        "id":33,
+        "nomeRegra":"regra33",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr4"},
+            {"var":"mhz_ram","op":"==","value":"mais2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"mais32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"2slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":" DDR4 32GB 3200mhz x2"}
+    },
+    {
+        "id":34,
+        "nomeRegra":"regra33",
+        "condicoes":[
+            {"var":"tipo_ram","op":"==","value":"ddr4"},
+            {"var":"mhz_ram","op":"==","value":"mais2000","statementOperator":"||"},
+            {"var":"capacidade_ram","op":"==","value":"mais32","statementOperator":"||"},
+            {"var":"slots_ram","op":"==","value":"4slots","statementOperator":"||"}
+        ],
+        "entao":{"var":"ram","value":" DDR4 16GB 3200mhz x4"}
+    },
+    {
+        "id": 35,
+        "nomeRegra": "regra35",
+        "condicoes": [
+            {"var": "armazenamento", "op": "==", "value": "hd"},
+            {"var": "suporte_nvme", "op": "==", "value": "sim", "statementOperator": "||"},
+            {"var": "espaço", "op": "==", "value": "pouco espaço", "statementOperator": "||"}
+        ],
+        "entao": {"var": "armazenamento", "value": "Nvme m2 240gb"}
+    },
+    {
+        "id": 36,
+        "nomeRegra": "regra36",
+        "condicoes": [
+            {"var": "armazenamento", "op": "==", "value": "hd"},
+            {"var": "suporte_nvme", "op": "==", "value": "sim", "statementOperator": "||"},
+            {"var": "espaço", "op": "==", "value": "muito espaço", "statementOperator": "||"}
+        ],
+        "entao": {"var": "armazenamento", "value": "Nvme m2 460gb + HD atual secundario"}
+    },
+    {
+        "id": 37,
+        "nomeRegra": "regra37",
+        "condicoes": [
+            {"var": "armazenamento", "op": "==", "value": "hd"},
+            {"var": "suporte_nvme", "op": "==", "value": "nao", "statementOperator": "||"},
+            {"var": "espaço", "op": "==", "value": "pouco espaço", "statementOperator": "||"}
+        ],
+        "entao": {"var": "armazenamento", "value": "SSD sata 240gb"}
+    },
+    {
+        "id": 38,
+        "nomeRegra": "regra38",
+        "condicoes": [
+            {"var": "armazenamento", "op": "==", "value": "hd"},
+            {"var": "suporte_nvme", "op": "==", "value": "nao", "statementOperator": "||"},
+            {"var": "espaço", "op": "==", "value": "muito espaço", "statementOperator": "||"}
+        ],
+        "entao": {"var": "armazenamento", "value": "SSD sata 960gb + HD atual secundario"}
+    },
+    {
+        "id": 39,
+        "nomeRegra": "regra39",
+        "condicoes": [
+            {"var": "armazenamento", "op": "==", "value": "ssd"},
+            {"var": "suporte_nvme", "op": "==", "value": "sim", "statementOperator": "||"},
+            {"var": "espaço", "op": "==", "value": "pouco espaço", "statementOperator": "||"}
+        ],
+        "entao": {"var": "armazenamento", "value": "Nvme 240gb + SSD atual secundario"}
+    },
+    {
+        "id": 40,
+        "nomeRegra": "regra40",
+        "condicoes": [
+            {"var": "armazenamento", "op": "==", "value": "ssd"},
+            {"var": "suporte_nvme", "op": "==", "value": "sim", "statementOperator": "||"},
+            {"var": "espaço", "op": "==", "value": "muito espaço", "statementOperator": "||"}
+        ],
+        "entao": {"var": "armazenamento", "value": "Nvme m2 460gb + HD 1tb atual secundario"}
+    },
+    {
+        "id": 41,
+        "nomeRegra": "regra41",
+        "condicoes": [
+            {"var": "armazenamento", "op": "==", "value": "ssd"},
+            {"var": "suporte_nvme", "op": "==", "value": "nao", "statementOperator": "||"},
+            {"var": "espaço", "op": "==", "value": "pouco espaço", "statementOperator": "||"}
+        ],
+        "entao": {"var": "armazenamento", "value": "HD 300gb secundario ou nada a fazer"}
+    },
+    {
+        "id": 42,
+        "nomeRegra": "regra42",
+        "condicoes": [
+            {"var": "armazenamento", "op": "==", "value": "ssd"},
+            {"var": "suporte_nvme", "op": "==", "value": "nao", "statementOperator": "||"},
+            {"var": "espaço", "op": "==", "value": "muito espaço", "statementOperator": "||"}
+        ],
+        "entao": {"var": "armazenamento", "value": "HD 1tb para armazenamento e ssd atual apenas sistema"}
+    },
+    {
+        "id": 43,
+        "nomeRegra": "regra43",
+        "condicoes": [
+            {"var": "marca_gpu", "op": "==", "value": "amd"},
+            {"var": "finalidade", "op": "==", "value": "jogos", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "menos de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "AMD Radeon RX 550"}
+    },
+    {
+        "id": 44,
+        "nomeRegra": "regra44",
+        "condicoes": [
+            {"var": "marca_gpu", "op": "==", "value": "amd"},
+            {"var": "finalidade", "op": "==", "value": "trabalho", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "baixo", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "mais de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "AMD Radeon RX 560"}
+    },
+    {
+        "id": 45,
+        "nomeRegra": "regra45",
+        "condicoes": [
+            {"var": "marca_gpu", "op": "==", "value": "amd"},
+            {"var": "finalidade", "op": "==", "value": "jogos", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "alto", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "menos de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "AMD Radeon RX 580"}
+    },
+    {
+        "id": 46,
+        "nomeRegra": "regra46",
+        "condicoes": [
+            {"var": "marca_gpu", "op": "==", "value": "amd"},
+            {"var": "finalidade", "op": "==", "value": "trabalho", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "alto", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "menos de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "AMD Radeon RX 6600XT"}
+    },
+    {
+        "id": 47,
+        "nomeRegra": "regra47",
+        "condicoes": [
+            {"var": "marca_gpu", "op": "==", "value": "amd"},
+            {"var": "finalidade", "op": "==", "value": "jogos", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "baixo", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "mais de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "AMD Radeon RX 560"}
+    },
+    {
+        "id": 48,
+        "nomeRegra": "regra48",
+        "condicoes": [
+            {"var": "marca_gpu", "op": "==", "value": "amd"},
+            {"var": "finalidade", "op": "==", "value": "trabalho", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "baixo", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "mais de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "AMD Radeon RX 5500XT"}
+    },
+    {
+        "id": 49,
+        "nomeRegra": "regra49",
+        "condicoes": [
+            {"var": "marca_gpu", "op": "==", "value": "amd"},
+            {"var": "finalidade", "op": "==", "value": "jogos", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "alto", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "mais de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "AMD Radeon RX 6700XT"}
+    },
+    {
+        "id": 50,
+        "nomeRegra": "regra50",
+        "condicoes": [
+            {"var": "marca_gpu", "op": "==", "value": "amd"},
+            {"var": "finalidade", "op": "==", "value": "trabalho", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "alto", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "mais de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "AMD Radeon RX 6900XT"}
+    },
+    {
+        "id": 51,
+        "nomeRegra": "regra51",
+        "condicoes": [
+            {"var": "gargalo", "op": "==", "value": "gpu"},
+            {"var": "marca_gpu", "op": "==", "value": "nvidia", "statementOperator": "||"},
+            {"var": "finalidade", "op": "==", "value": "jogos", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "baixo", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "menos de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "NVIDIA GeForce GT 1030"}
+    },
+    {
+        "id": 52,
+        "nomeRegra": "regra52",
+        "condicoes": [
+            {"var": "gargalo", "op": "==", "value": "gpu"},
+            {"var": "marca_gpu", "op": "==", "value": "nvidia", "statementOperator": "||"},
+            {"var": "finalidade", "op": "==", "value": "trabalho", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "baixo", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "menos de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "NVIDIA GeForce GTX 1050"}
+    },
+    {
+        "id": 53,
+        "nomeRegra": "regra53",
+        "condicoes": [
+            {"var": "gargalo", "op": "==", "value": "gpu"},
+            {"var": "marca_gpu", "op": "==", "value": "nvidia", "statementOperator": "||"},
+            {"var": "finalidade", "op": "==", "value": "jogos", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "alto", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "menos de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "NVIDIA GeForce GTX 1660"}
+    },
+    {
+        "id": 54,
+        "nomeRegra": "regra54",
+        "condicoes": [
+            {"var": "gargalo", "op": "==", "value": "gpu"},
+            {"var": "marca_gpu", "op": "==", "value": "nvidia", "statementOperator": "||"},
+            {"var": "finalidade", "op": "==", "value": "trabalho", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "baixo", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "menos de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "NVIDIA GeForce GTX 1660 SUPER"}
+    },
+    {
+        "id": 55,
+        "nomeRegra": "regra55",
+        "condicoes": [
+            {"var": "gargalo", "op": "==", "value": "gpu"},
+            {"var": "marca_gpu", "op": "==", "value": "nvidia", "statementOperator": "||"},
+            {"var": "finalidade", "op": "==", "value": "jogos", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "baixo", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "mais de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "NVIDIA GeForce GTX 1050"}
+    },
+    {
+        "id": 56,
+        "nomeRegra": "regra56",
+        "condicoes": [
+            {"var": "gargalo", "op": "==", "value": "gpu"},
+            {"var": "marca_gpu", "op": "==", "value": "nvidia", "statementOperator": "||"},
+            {"var": "finalidade", "op": "==", "value": "trabalho", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "baixo", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "mais de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "NVIDIA GeForce GTX 1050 TI"}
+    },
+    {
+        "id": 57,
+        "nomeRegra": "regra57",
+        "condicoes": [
+            {"var": "gargalo", "op": "==", "value": "gpu"},
+            {"var": "marca_gpu", "op": "==", "value": "nvidia", "statementOperator": "||"},
+            {"var": "finalidade", "op": "==", "value": "jogos", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "alto", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "mais de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "NVIDIA GeForce GTX 3060"}
+    },
+    {
+        "id": 58,
+        "nomeRegra": "regra58",
+        "condicoes": [
+            {"var": "gargalo", "op": "==", "value": "gpu"},
+            {"var": "marca_gpu", "op": "==", "value": "nvidia", "statementOperator": "||"},
+            {"var": "finalidade", "op": "==", "value": "trabalho", "statementOperator": "||"},
+            {"var": "desempenho_cpu", "op": "==", "value": "alto", "statementOperator": "||"},
+            {"var": "potencia_fonte", "op": "==", "value": "mais de 500w", "statementOperator": "||"}
+        ],
+        "entao": {"var": "gpu", "value": "NVIDIA GeForce GTX 3090"}
+    }
+
+]
+
+

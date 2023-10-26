@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upgrader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>GPU upgrader</h1>
+
+    <div class="question">
+        <p>Qual marca de GPU você prefere?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q1" value="amd"> AMD
+            </label>
+            <label>
+                <input type="radio" name="q1" value="nvidia"> Nvidia
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Qual a finalidade do uso da GPU?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q2" value="jogos"> Jogos
+            </label>
+            <label>
+                <input type="radio" name="q2" value="trabalho"> Trabalho
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Como você considera a performance da sua CPU?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q3" value="alto"> Alto
+            </label>
+            <label>
+                <input type="radio" name="q3" value="baixo"> Baixo
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Sua fonte de alimentação possui mais ou menos que 500W?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q4" value="mais500w"> mais que 500W
+            </label>
+            <label>
+                <input type="radio" name="q4" value="menos500w"> menos que 500W
+            </label>
+        </div>
+    </div>
+
+    <button id="submit">Enviar Respostas</button>
+    <button id="return">Voltar</button>
+
+    <p id="resultado-element"></p>
+
+    <script src="../scripts/respostas_usuario.js"></script>
+</body>
+</html>

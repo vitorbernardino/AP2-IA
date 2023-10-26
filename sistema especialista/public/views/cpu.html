@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upgrader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CPU upgrader</h1>
+
+    <div class="question">
+        <p>Qual o modelo da sua CPU?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q1" value="amd" class="processador"> AMD
+            </label>
+            <label>
+                <input type="radio" name="q1" value="intel" class="processador"> Intel
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Qual o socket da sua placa mãe?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q2" value="lga1150" class="socket"> LGA 1150
+            </label>
+            <label>
+                <input type="radio" name="q2" value="lga1151" class="socket"> LGA 1151
+            </label>
+            <label>
+                <input type="radio" name="q2" value="lga1200" class="socket"> LGA 1200
+            </label>
+            <label>
+                <input type="radio" name="q2" value="am4" class="socket"> AM4
+            </label>
+            <label>
+                <input type="radio" name="q2" value="fm2" class="socket"> FM2
+            </label>
+            <label>
+                <input type="radio" name="q2" value="am3" class="socket"> AM3+
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Como você considera a performance da sua GPU?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q3" value="alto" class="performance_gpu"> Alto
+            </label>
+            <label>
+                <input type="radio" name="q3" value="medio" class="performance_gpu"> Médio
+            </label>
+            <label>
+                <input type="radio" name="q3" value="baixo" class="performance_gpu"> Baixo
+            </label>
+        </div>
+    </div>
+
+    <button id="submit">Enviar Respostas</button>
+    <button id="return">Voltar</button>
+
+    <p id="resultado-element"></p>
+
+
+    <script src="../scripts/respostas_usuario.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upgrader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HDD upgrader</h1>
+
+    <div class="question">
+        <p>Qual o seu tipo de armazenamento atual?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q1" value="hdd"> HDD
+            </label>
+            <label>
+                <input type="radio" name="q1" value="ssd"> SSD
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Sua placa tem suporte para NVME??</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q2" value="sim"> Sim
+            </label>
+            <label>
+                <input type="radio" name="q2" value="nao"> Não
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Qual a sua necessidade de armazenamento?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q3" value="pouco"> Pouco espaço porém velocidade
+            </label>
+            <label>
+                <input type="radio" name="q3" value="muito"> Muito espaço
+            </label>
+        </div>
+    </div>
+    <button id="submit">Enviar Respostas</button>
+    <button id="return">Voltar</button>
+
+    <p id="resultado-element"></p>
+
+    <script src="../scripts/respostas_usuario.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de regras</title>
+</head>
+<body>
+    <h1>Cadastro de regras</h1>
+
+    <form onsubmit="return false" id="form-regras">
+        <input type="text" name="nome" placeholder="Nome da regra" id="nome-regra" required>
+        <select name="categoria" id="categoria">
+            <option value="cpu">cpu</option>
+            <option value="gpu">gpu</option>
+            <option value="ram">memoria</option>
+            <option value="armazenamento">armazenamento</option>
+        </select>
+        <p>SE</p>
+        <div id="container-regras">
+
+        </div>
+        <p>ENTÃO</p>
+        <div id="container-acao">
+            <select name="variaveis-acao" id="variaveis-acao">
+
+            </select>
+            <select name="valores-acao" id="valores-acao">
+
+            </select>
+        </div>
+        <input type="submit" value="Cadastrar" onclick="cadastrarRegra()">
+        <button id="return">Voltar</button>
+    </form>
+    <script src="scripts/regras.js"></script>
+    <script src="scripts/salvar_regras.js"></script>
+    <script src="../scripts/respostas_usuario.js"></script>
+</body>
+</html>

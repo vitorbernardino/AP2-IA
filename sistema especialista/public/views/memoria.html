@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upgrader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>RAM upgrader</h1>
+
+    <div class="question">
+        <p>Qual o DDR da sua RAM?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q1" value="ddr3"> DDR3
+            </label>
+            <label>
+                <input type="radio" name="q1" value="ddr4"> DDR4
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Qual a frequencia maxima suportada pela CPU?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q2" value="+2000mhz"> Mais que 2000mhz
+            </label>
+            <label>
+                <input type="radio" name="q2" value="-2000mhz"> Menos que 2000mhz
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Qual a capacidade maxima de RAM suportada?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q3" value="+32"> Mais que 32GB
+            </label>
+            <label>
+                <input type="radio" name="q3" value="-32"> Menos que 32GB
+            </label>
+        </div>
+    </div>
+
+    <div class="question">
+        <p>Quantos slots sua placa possui?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q4" value="2slots"> 2 slots
+            </label>
+            <label>
+                <input type="radio" name="q4" value="4slots"> 4 slots
+            </label>
+        </div>
+    </div>
+
+
+    <button id="submit">Enviar Respostas</button>
+    <button id="return">Voltar</button>
+
+    <p id="resultado-element"></p>
+
+    <script src="../scripts/respostas_usuario.js"></script>
+</body>
+</html>
